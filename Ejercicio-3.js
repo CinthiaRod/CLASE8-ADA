@@ -5,3 +5,11 @@
 //1.Pida al usuario que ingrese dos números.
 //2.Sume ambos números.
 //3.Muestre el resultado de la suma.
+
+const prompt = require('prompt-sync')();
+
+let FisrtNumber = parseFloat(prompt("Enter a number:"));
+let SecondNumber = parseFloat(prompt("Enter a second number:"));
+let Addition = (FisrtNumber + SecondNumber);
+
+console.log("The sum of the numbers is:" , Addition);
